@@ -1,0 +1,14 @@
+{
+	"category" : "MachineLearning",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"test" ],
+	"name" : "SimpleDataset",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
