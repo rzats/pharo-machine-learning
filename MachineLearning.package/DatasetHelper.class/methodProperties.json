@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"instVarOf:at:" : "RostyslavZatserkovnyi 5/22/2016 17:06",
-		"instVars:" : "RostyslavZatserkovnyi 5/22/2016 17:05" } }
+		"addColumn:type:" : "RostyslavZatserkovnyi 5/24/2016 15:06",
+		"initialize" : "RostyslavZatserkovnyi 5/24/2016 15:12",
+		"readCSV:" : "RostyslavZatserkovnyi 5/24/2016 15:24" } }
