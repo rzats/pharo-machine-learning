@@ -1,2 +1,7 @@
 # pharo-machine-learning
-LNU university project. TODO: add better description :wink:
+
+LNU university project implementing machine learning usecases in Pharo.
+
+## Dependencies
+* [Didier Besset's Numerical Methods](http://www.squeaksource.com/DHBNumerical/)
+* [NeoCSV](http://mc.stfx.eu/Neo/)
