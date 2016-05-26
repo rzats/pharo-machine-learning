@@ -1,0 +1,15 @@
+{
+	"category" : "MachineLearning",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"coefs",
+		"predName" ],
+	"name" : "LinearRegression",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

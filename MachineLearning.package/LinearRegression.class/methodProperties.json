@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createFrom:features:output:ridge:stepSize:maxIter:" : "Andrii 5/26/2016 20:18",
+		"initialize" : "Andrii 5/26/2016 16:01",
+		"matrixFrom:" : "Andrii 5/26/2016 15:07",
+		"matrixFrom:features:" : "Andrii 5/26/2016 18:58",
+		"print" : "Andrii 5/26/2016 16:07" } }
