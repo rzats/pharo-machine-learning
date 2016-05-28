@@ -2,8 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFrom:features:output:ridge:stepSize:maxIter:" : "Andrii 5/26/2016 20:18",
-		"initialize" : "Andrii 5/26/2016 16:01",
+		"createFrom:features:output:convergence:" : "Andrii 5/28/2016 11:59",
+		"createFrom:features:output:ridge:convergence:" : "Andrii 5/28/2016 12:26",
+		"createFrom:features:output:ridge:stepSize:maxIter:" : "Andrii 5/28/2016 12:27",
+		"createFrom:features:output:stepSize:maxIter:" : "Andrii 5/28/2016 12:01",
+		"getStepFrom:derivative:" : "Andrii 5/28/2016 10:02",
+		"initialize" : "Andrii 5/28/2016 11:58",
 		"matrixFrom:" : "Andrii 5/26/2016 15:07",
 		"matrixFrom:features:" : "Andrii 5/26/2016 18:58",
-		"print" : "Andrii 5/26/2016 16:07" } }
+		"predictFromHelper:" : "Andrii 5/28/2016 12:08",
+		"predictVal:" : "Andrii 5/28/2016 11:56",
+		"print" : "Andrii 5/28/2016 12:30",
+		"squareSum:" : "Andrii 5/28/2016 09:58" } }

@@ -1,4 +1,4 @@
-creation
+helperMethods
 matrixFrom: helper features: features
 	"comment stating purpose of message"
 
