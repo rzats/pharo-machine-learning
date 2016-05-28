@@ -1,3 +1,3 @@
 reading
 readCSV: fileName
-	self readCSV: fileName skipHeader: true.
+	self readCSV: fileName separator: $, skipHeader: true

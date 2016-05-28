@@ -2,7 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"calculateProbability:mean:standardDeviation:" : "RostyslavZatserkovnyi 5/28/2016 20:59",
-		"initialize" : "RostyslavZatserkovnyi 5/28/2016 19:07",
-		"mean:" : "RostyslavZatserkovnyi 5/28/2016 19:45",
-		"standardDeviation:" : "RostyslavZatserkovnyi 5/28/2016 20:41" } }
+		"classify:" : "RostyslavZatserkovnyi 5/29/2016 01:49",
+		"getClassDocCount:" : "RostyslavZatserkovnyi 5/29/2016 01:37",
+		"getClasses" : "RostyslavZatserkovnyi 5/29/2016 01:36",
+		"getDocCount" : "RostyslavZatserkovnyi 5/29/2016 01:35",
+		"getFrequency:class:" : "RostyslavZatserkovnyi 5/29/2016 01:46",
+		"getTokenProb:class:" : "RostyslavZatserkovnyi 5/29/2016 01:58",
+		"increaseClass:" : "RostyslavZatserkovnyi 5/28/2016 23:42",
+		"increaseToken:class:" : "RostyslavZatserkovnyi 5/28/2016 23:51",
+		"initialize" : "RostyslavZatserkovnyi 5/29/2016 01:22",
+		"predict:" : "RostyslavZatserkovnyi 5/29/2016 01:56",
+		"tokenize:" : "RostyslavZatserkovnyi 5/28/2016 23:36",
+		"train:class:" : "RostyslavZatserkovnyi 5/29/2016 00:00" } }

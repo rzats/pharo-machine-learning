@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"predictions" ],
+		"classFrequency",
+		"tokenFrequency",
+		"defaultProbability" ],
 	"name" : "BayesClassification",
 	"pools" : [
 		 ],

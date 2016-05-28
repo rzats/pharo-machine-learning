@@ -1,5 +1,6 @@
-creation
+class initialization
 initialize
-	"comment stating purpose of message"
-
-	predictions := OrderedCollection new.
+	super initialize.
+	defaultProbability := 0.00000000001.
+	classFrequency := Dictionary new.
+	tokenFrequency := Dictionary new

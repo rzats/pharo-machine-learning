@@ -1,0 +1,3 @@
+getters
+getClasses
+	^ classFrequency keys
