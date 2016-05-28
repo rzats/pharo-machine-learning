@@ -10,7 +10,7 @@ randomSplit: ratio
 
 	"Set trainingSet to a new collection and testSet to the initial dataset"
 	trainingSet := OrderedCollection new.
-	testSet := dataset.
+	testSet := dataset copy.
 
 	"Remove items from testSet and add them to trainingSet until a proper ratio between them is reached"
 	[ trainingSet size <= trainingSize ]

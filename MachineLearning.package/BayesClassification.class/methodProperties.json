@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"calculateProbability:mean:standardDeviation:" : "RostyslavZatserkovnyi 5/28/2016 20:59",
+		"initialize" : "RostyslavZatserkovnyi 5/28/2016 19:07",
+		"mean:" : "RostyslavZatserkovnyi 5/28/2016 19:45",
+		"standardDeviation:" : "RostyslavZatserkovnyi 5/28/2016 20:41" } }
