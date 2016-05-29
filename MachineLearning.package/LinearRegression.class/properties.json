@@ -11,7 +11,10 @@
 		"iters",
 		"intercept",
 		"rsse",
-		"rss" ],
+		"rss",
+		"norms",
+		"means",
+		"meansDict" ],
 	"name" : "LinearRegression",
 	"pools" : [
 		 ],
