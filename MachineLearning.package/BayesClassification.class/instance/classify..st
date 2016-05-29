@@ -1,6 +1,7 @@
 classification
 classify: text
 	| documentCount classes tokens scores score |
+	text ifNil: [ ^nil ].
 	documentCount := self getDocCount.
 	classes := self getClasses.
 	tokens := self tokenize: text.

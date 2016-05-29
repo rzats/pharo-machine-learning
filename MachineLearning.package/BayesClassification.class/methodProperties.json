@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"classify:" : "RostyslavZatserkovnyi 5/29/2016 01:49",
+		"classify:" : "RostyslavZatserkovnyi 5/29/2016 21:58",
 		"getClassDocCount:" : "RostyslavZatserkovnyi 5/29/2016 01:37",
 		"getClasses" : "RostyslavZatserkovnyi 5/29/2016 01:36",
 		"getDocCount" : "RostyslavZatserkovnyi 5/29/2016 01:35",
@@ -11,6 +11,6 @@
 		"increaseClass:" : "RostyslavZatserkovnyi 5/28/2016 23:42",
 		"increaseToken:class:" : "RostyslavZatserkovnyi 5/28/2016 23:51",
 		"initialize" : "RostyslavZatserkovnyi 5/29/2016 01:22",
-		"predict:" : "RostyslavZatserkovnyi 5/29/2016 01:56",
+		"predict:" : "RostyslavZatserkovnyi 5/29/2016 22:00",
 		"tokenize:" : "RostyslavZatserkovnyi 5/28/2016 23:36",
-		"train:class:" : "RostyslavZatserkovnyi 5/29/2016 00:00" } }
+		"train:class:" : "RostyslavZatserkovnyi 5/29/2016 21:49" } }
