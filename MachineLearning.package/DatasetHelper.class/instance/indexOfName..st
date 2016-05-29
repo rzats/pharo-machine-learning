@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 indexOfName: columnName
 	"comment stating purpose of message"
 
