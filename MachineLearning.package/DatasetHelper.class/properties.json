@@ -1,15 +1,14 @@
 {
-	"category" : "MachineLearning",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MachineLearning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"dataset",
-		"columns" ],
+		"columns"
+	],
 	"name" : "DatasetHelper",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "LinearModel",
+	"category" : "MachineLearning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"matrix",
+		"alpha",
+		"maxIter",
+		"tol",
+		"selection",
+		"fit_interept",
+		"normalize",
+		"random_state",
+		"l1Ratio"
+	],
+	"name" : "ElasticNetModel",
+	"type" : "normal"
+}

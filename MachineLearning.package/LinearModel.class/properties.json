@@ -6,16 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"coefs",
-		"predName",
-		"iters",
-		"intercept",
-		"rsse",
-		"rss",
-		"norms",
-		"means",
-		"meansDict"
+		"xScale",
+		"xOffset",
+		"yOffset"
 	],
-	"name" : "LinearRegression",
+	"name" : "LinearModel",
 	"type" : "normal"
 }

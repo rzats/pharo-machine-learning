@@ -1,16 +1,15 @@
 {
-	"category" : "MachineLearning",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MachineLearning",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"classFrequency",
 		"tokenFrequency",
-		"defaultProbability" ],
+		"defaultProbability"
+	],
 	"name" : "BayesClassification",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
