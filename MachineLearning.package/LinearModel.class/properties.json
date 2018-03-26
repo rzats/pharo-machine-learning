@@ -8,7 +8,11 @@
 	"instvars" : [
 		"xScale",
 		"xOffset",
-		"yOffset"
+		"yOffset",
+		"intercept",
+		"normalize",
+		"center",
+		"coefs"
 	],
 	"name" : "LinearModel",
 	"type" : "normal"

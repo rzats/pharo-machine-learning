@@ -1,18 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "LinearModel",
+	"super" : "Object",
 	"category" : "MachineLearning",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"alpha",
-		"maxIter",
-		"tol",
-		"selection",
-		"l1Ratio",
+		"iters",
+		"coefs",
 		"gap"
 	],
-	"name" : "ElasticNetModel",
+	"name" : "ElasticNetPathResult",
 	"type" : "normal"
 }

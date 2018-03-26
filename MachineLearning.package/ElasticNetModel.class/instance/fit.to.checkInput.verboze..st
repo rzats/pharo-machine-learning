@@ -6,7 +6,7 @@ fit: X to: y checkInput: check verboze: isVerbose
 		self preprocessOutput: y.
 		 ].
 	
-	self elasticNetPathInput: X output: y verbose: isVerbose .
+	self elasticNetPathInput: X output: y.
 	
 	
 	^self.

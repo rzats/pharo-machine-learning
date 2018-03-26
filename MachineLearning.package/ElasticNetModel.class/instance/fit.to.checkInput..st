@@ -8,9 +8,11 @@ fit: X to: y checkInput: check
 		 ].
 	
 	self elasticNetPathInput: processX output: y.
+	self fitIntercept.
+	^ self.
 	
 	
-	^self.
+	
 	
 	
 	

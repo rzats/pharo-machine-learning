@@ -5,14 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"alpha",
-		"maxIter",
-		"tol",
-		"selection",
-		"l1Ratio",
-		"gap"
-	],
-	"name" : "ElasticNetModel",
+	"instvars" : [ ],
+	"name" : "ElasticNetPathRegressors",
 	"type" : "normal"
 }

@@ -1,5 +1,10 @@
 accessing
 preprocessOutput: vect
 	"divide by scale and return it"
-	yOffset := self center: vect.
+	center ifTrue: [ 
+		yOffset := self center: vect.
+	] ifFalse: [ 
+		yOffset := 0.
+	 ].
+	
 	

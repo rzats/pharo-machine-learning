@@ -1,17 +1,27 @@
 accessing
 preprocessInput: X
 	"center and scale input"
-	| n inputX |
-	n := 0.
-	inputX := X transpose.
-	xOffset := X rowsCollect: [ 
-		:row | self center: row.
-		 ].
+	| inputX |
 	
-	xScale := X rowsCollect: [ 
-		:row | self normalize: row
-		 ].
+	center ifTrue: [ 
+		inputX := X transpose.
+		xOffset := (inputX rowsCollect: [ 
+			:row | self center: row.
+		 ]) asVector.
 	
-	inputX := inputX transpose.
+		xScale := (inputX rowsCollect: [ 
+			:row | 
+			normalize ifTrue: [ 
+				self normalize: row
+			 ]
+			ifFalse: [ 
+				1
+			].
+		 ]) asVector.
 	
+		inputX := inputX transpose.
+	] ifFalse: [
+		xOffset := (Array new: X numberOfColumns withAll: 0) asVector.
+		xScale :=  (Array new: X numberOfColumns withAll: 1) asVector.
+	].
 	^ inputX.
