@@ -1,0 +1,1 @@
+I am used to assert double values being almost equal : | x - y | < eps

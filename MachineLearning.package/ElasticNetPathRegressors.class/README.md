@@ -1,0 +1,1 @@
+I represent a base class holding a functionality similar to all class using elastic net coordinate descent (ElasticNet and Lasso for instance).

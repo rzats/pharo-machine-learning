@@ -1,0 +1,1 @@
+I represent a base class for all linear regression models (Ridge, Lasso, ElasticNet).

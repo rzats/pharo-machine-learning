@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "AndriiSkolotianyi 3/27/2018 15:58",
-	"super" : "LinearModel",
+	"commentStamp" : "AndriiSkolotianyi 3/27/2018 16:00",
+	"super" : "ElasticNetModel",
 	"category" : "MachineLearning",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ElasticNetPathRegressors",
+	"name" : "LassoModel",
 	"type" : "normal"
 }

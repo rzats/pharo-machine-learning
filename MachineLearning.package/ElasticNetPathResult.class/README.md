@@ -1,0 +1,1 @@
+I am just a helpful class used to hold complex coordinate descent results : calculated coeficients, gap and number of iterations.

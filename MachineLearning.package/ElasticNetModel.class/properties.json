@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "AndriiSkolotianyi 3/27/2018 16:00",
 	"super" : "ElasticNetPathRegressors",
 	"category" : "MachineLearning",
 	"classinstvars" : [ ],

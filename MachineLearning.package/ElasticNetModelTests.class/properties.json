@@ -1,0 +1,19 @@
+{
+	"classtraitcomposition" : "TDoublesAssertable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"x",
+		"y",
+		"predict",
+		"model",
+		"res"
+	],
+	"name" : "ElasticNetModelTests",
+	"commentStamp" : "AndriiSkolotianyi 3/27/2018 15:56",
+	"super" : "TestCase",
+	"traitcomposition" : "TDoublesAssertable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning"
+}
