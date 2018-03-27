@@ -6,15 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"xScale",
-		"xOffset",
-		"yOffset",
-		"intercept",
-		"normalize",
-		"center",
-		"coefs",
-		"preprocess"
+		"y",
+		"yOffset"
 	],
-	"name" : "LinearModel",
+	"name" : "PreprocessOutputResult",
 	"type" : "normal"
 }

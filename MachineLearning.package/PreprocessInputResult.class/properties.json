@@ -8,13 +8,9 @@
 	"instvars" : [
 		"xScale",
 		"xOffset",
-		"yOffset",
-		"intercept",
-		"normalize",
-		"center",
-		"coefs",
-		"preprocess"
+		"x",
+		"xT"
 	],
-	"name" : "LinearModel",
+	"name" : "PreprocessInputResult",
 	"type" : "normal"
 }

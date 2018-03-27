@@ -1,5 +1,6 @@
 creation
 initialize
+	super initialize.
  	alpha := 1. 
 	maxIter := 1000.
 	tol := 1e-4.

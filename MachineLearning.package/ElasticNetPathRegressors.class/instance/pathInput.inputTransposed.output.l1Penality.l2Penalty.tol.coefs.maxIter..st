@@ -17,7 +17,7 @@ maxIter: maxIter
 	gap := tol + 1.
 	nIters := 0.
 	
-	residuals := y - (x * coefs).
+	residuals := y - (x * weights).
 	tol := y * y * tol.
 	1 to: maxIter do: [ 
 		:iter |
@@ -29,7 +29,7 @@ maxIter: maxIter
 			i := ii.
 			(colNorms at: i) ~= 0  ifTrue: [  
 				| wii tmp colI newW dwii |
-				wii := coefs at: i.
+				wii := weights at: i.
 				colI := xT rowAt: i.
 				wii ~= 0 ifTrue: [ 
 					"reimplement with different matrix"
@@ -38,7 +38,7 @@ maxIter: maxIter
 				
 				tmp := colI * residuals.
 				newW := tmp sign * ((tmp abs - l1) max: 0) / (l2  + (colNorms at: i)) .
-				coefs at: i put: newW.
+				weights at: i put: newW.
 				newW ~= 0 ifTrue: [ 
 					residuals := residuals - (colI * newW).
 					 ].
@@ -51,10 +51,10 @@ maxIter: maxIter
 	
 		(wMax = 0 or: [ (dwMax  / wMax) < dwTol or: iter = maxIter ]) ifTrue: [ 
 			| dualNormXta rNorm2 wNorm2 const l1Norm|
-			xta := xT * residuals - (l2 * coefs).  
+			xta := xT * residuals - (l2 * weights).  
 			dualNormXta := xta reduce: [ :a :b | a abs max: b abs ].
 			rNorm2 := residuals * residuals.
-			wNorm2 := coefs * coefs.
+			wNorm2 := weights * weights.
 			
 			dualNormXta > l1 
 				ifTrue: [ 
@@ -68,7 +68,7 @@ maxIter: maxIter
 					gap := rNorm2.
 					 ].
 			
-			l1Norm := coefs reduce: [ :a :b | a abs + b abs ].
+			l1Norm := weights reduce: [ :a :b | a abs + b abs ].
 			gap := gap + (l1 * l1Norm)  - (residuals * y * const) + (0.5 * l2 * (1 + (const squared)) * wNorm2).
 			
 			gap < tol ifTrue: [ 

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "LinearModel",
+	"super" : "ElasticNetPathRegressors",
 	"category" : "MachineLearning",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -11,7 +11,8 @@
 		"tol",
 		"selection",
 		"l1Ratio",
-		"gap"
+		"gap",
+		"nIters"
 	],
 	"name" : "ElasticNetModel",
 	"type" : "normal"
