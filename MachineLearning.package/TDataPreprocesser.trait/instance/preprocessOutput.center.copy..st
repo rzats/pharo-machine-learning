@@ -1,9 +1,9 @@
-accessing
+as yet unclassified
 preprocessOutput: inVect center: center copy: copy
 	"divide by scale and return it"
 	| vect |
 	vect := copy
-				ifTrue: [ inVect copy asVector ]
+				ifTrue: [ inVect copy asPMVector ]
 				ifFalse: [ inVect ].
 	center
 		ifTrue: [ | yOffset |

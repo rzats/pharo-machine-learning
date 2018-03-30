@@ -3,8 +3,8 @@ fit: x to: y checkInput: check
 	"used to start fitting elastic model"
 	| preprocessXRes preprocessYRes l1Penalty l2Penalty pathRes|
 
-	preprocessXRes := preprocess preprocessInput: x center: (check and: center) normalize: normalize.
-	preprocessYRes := preprocess preprocessOutput: y center: (check and: center).
+	preprocessXRes := self preprocessInput: x center: (check and: center) normalize: normalize.
+	preprocessYRes := self preprocessOutput: y center: (check and: center).
 	xScale := preprocessXRes xScale.
 	xOffset := preprocessXRes xOffset.
 	yOffset := preprocessYRes yOffset.

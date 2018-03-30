@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "AndriiSkolotianyi 3/27/2018 15:57",
-	"super" : "Object",
-	"category" : "MachineLearning",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TDataPreprocesser classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"xScale",
@@ -12,9 +8,14 @@
 		"intercept",
 		"normalize",
 		"center",
-		"coefs",
-		"preprocess"
+		"coefs"
 	],
 	"name" : "LinearModel",
-	"type" : "normal"
+	"commentStamp" : "AndriiSkolotianyi 3/27/2018 15:57",
+	"super" : "Object",
+	"traitcomposition" : "TDataPreprocesser",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning"
 }

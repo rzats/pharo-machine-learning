@@ -6,14 +6,14 @@ maxIter: maxIter
 	tol := inTol.
 	nSamples := x numberOfRows.
 	nFeatures := x numberOfColumns.
-	weights := startWeigts copy asVector.
+	weights := startWeigts copy asPMVector.
 	dwTol := tol.
 	colNorms := x columnsCollect: [ 
 		:col | (col inject: 0 into: [ :accum : val| accum + val squared ]) 
 		 ].
 	
-	residuals := (Array new: nSamples withAll: 0) asVector.
-	xta := (Array new: nFeatures withAll: 0) asVector.
+	residuals := (Array new: nSamples withAll: 0) asPMVector.
+	xta := (Array new: nFeatures withAll: 0) asPMVector.
 	gap := tol + 1.
 	nIters := 0.
 	

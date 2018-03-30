@@ -1,9 +1,9 @@
 asserting
 testStraightLineAlpha_5e_1
 	"straight line with little alpha"
-	x := DhbMatrix rows: { { -1 } .{ 0 } . { 1 } }.
-	y := { -1 . 0 . 1 } asVector.
-	predict := DhbMatrix rows:{ { 2 } . {  3 }. { 4 } }.
+	x := PMMatrix rows: { { -1 } .{ 0 } . { 1 } }.
+	y := { -1 . 0 . 1 } asPMVector.
+	predict := PMMatrix rows:{ { 2 } . {  3 }. { 4 } }.
 	model := LassoModel createWithAlpha: 0.5 maxIter: 100 
 										tol: 1e-4 selection: 'cyclic'  
 										normalize: false center: true.

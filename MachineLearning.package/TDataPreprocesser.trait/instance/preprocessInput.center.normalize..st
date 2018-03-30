@@ -7,7 +7,7 @@ preprocessInput: X center: center normalize: normalize
 	center ifTrue: [ 		
 		xOffset := (inputXTransposed rowsCollect: [ 
 			:row | self center: row.
-		 ]) asVector.
+		 ]) asPMVector.
 	
 		xScale := (inputXTransposed rowsCollect: [ 
 			:row | 
@@ -17,10 +17,10 @@ preprocessInput: X center: center normalize: normalize
 			ifFalse: [ 
 				1
 			].
-		 ]) asVector.
+		 ]) asPMVector.
 	] ifFalse: [
-		xOffset := (Array new: X numberOfColumns withAll: 0) asVector.
-		xScale :=  (Array new: X numberOfColumns withAll: 1) asVector.
+		xOffset := (Array new: X numberOfColumns withAll: 0) asPMVector.
+		xScale :=  (Array new: X numberOfColumns withAll: 1) asPMVector.
 	].
 
 	inputX := inputXTransposed transpose.
