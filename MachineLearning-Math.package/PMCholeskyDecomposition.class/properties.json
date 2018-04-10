@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AndriiSkolotianyi 4/4/2018 14:20",
+	"super" : "Object",
+	"category" : "MachineLearning-Math",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exists",
+		"matrix"
+	],
+	"name" : "PMCholeskyDecomposition",
+	"type" : "normal"
+}

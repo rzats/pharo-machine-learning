@@ -1,0 +1,17 @@
+{
+	"classtraitcomposition" : "TDataPreprocesser classTrait + TRegressionModelScorable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"cv",
+		"cvResults"
+	],
+	"name" : "LinearModelCV",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "TDataPreprocesser + TRegressionModelScorable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning-LinearRegression"
+}

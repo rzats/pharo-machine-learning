@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AndriiSkolotianyi 3/27/2018 16:03",
+	"super" : "Object",
+	"category" : "MachineLearning-LinearRegression",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"y",
+		"yOffset"
+	],
+	"name" : "PreprocessOutputResult",
+	"type" : "normal"
+}

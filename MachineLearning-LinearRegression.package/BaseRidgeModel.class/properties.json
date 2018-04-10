@@ -1,0 +1,18 @@
+{
+	"classtraitcomposition" : "TRidgeNumerical classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"tol",
+		"maxIter",
+		"method",
+		"tempalpha"
+	],
+	"name" : "BaseRidgeModel",
+	"commentStamp" : "AndriiSkolotianyi 3/30/2018 13:53",
+	"super" : "LinearModel",
+	"traitcomposition" : "TRidgeNumerical",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning-LinearRegression"
+}

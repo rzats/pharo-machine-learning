@@ -1,0 +1,1 @@
+I represent ridge linear regression model tests with single output.

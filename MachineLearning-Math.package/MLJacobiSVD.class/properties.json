@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "AndriiSkolotianyi 4/8/2018 22:27",
+	"super" : "Object",
+	"category" : "MachineLearning-Math",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"JacobDblEps"
+	],
+	"instvars" : [
+		"m",
+		"n",
+		"s",
+		"v",
+		"signU",
+		"signV",
+		"step",
+		"converge",
+		"tol",
+		"count",
+		"first",
+		"uT",
+		"u"
+	],
+	"name" : "MLJacobiSVD",
+	"type" : "normal"
+}

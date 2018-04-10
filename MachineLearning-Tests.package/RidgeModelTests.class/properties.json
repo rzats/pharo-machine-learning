@@ -1,0 +1,21 @@
+{
+	"classtraitcomposition" : "TDoublesAssertable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"x",
+		"y",
+		"predict",
+		"model",
+		"res",
+		"score",
+		"methods"
+	],
+	"name" : "RidgeModelTests",
+	"commentStamp" : "AndriiSkolotianyi 4/5/2018 19:58",
+	"super" : "TestCase",
+	"traitcomposition" : "TDoublesAssertable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning-Tests"
+}

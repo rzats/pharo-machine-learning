@@ -1,0 +1,1 @@
+this class evaluates singular value decomposition using one-sided svd method, the implementation is based on c++ gsl svd jacobi method

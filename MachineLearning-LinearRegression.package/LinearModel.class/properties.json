@@ -1,0 +1,21 @@
+{
+	"classtraitcomposition" : "TDataPreprocesser classTrait + TRegressionModelScorable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"xScale",
+		"xOffset",
+		"yOffset",
+		"intercept",
+		"normalize",
+		"center",
+		"coefs"
+	],
+	"name" : "LinearModel",
+	"commentStamp" : "AndriiSkolotianyi 3/27/2018 15:57",
+	"super" : "Object",
+	"traitcomposition" : "TDataPreprocesser + TRegressionModelScorable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning-LinearRegression"
+}

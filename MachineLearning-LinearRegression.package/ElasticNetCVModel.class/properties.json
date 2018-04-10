@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "LinearModelCV",
+	"category" : "MachineLearning-LinearRegression",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"maxIter",
+		"tol",
+		"selection",
+		"l1Ratios"
+	],
+	"name" : "ElasticNetCVModel",
+	"type" : "normal"
+}

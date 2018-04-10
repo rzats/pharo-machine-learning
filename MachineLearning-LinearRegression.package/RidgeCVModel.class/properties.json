@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "LinearModelCV",
+	"category" : "MachineLearning-LinearRegression",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alpha",
+		"maxIter",
+		"tol",
+		"selection",
+		"l1Ratio",
+		"gap",
+		"nIters"
+	],
+	"name" : "RidgeCVModel",
+	"type" : "normal"
+}
