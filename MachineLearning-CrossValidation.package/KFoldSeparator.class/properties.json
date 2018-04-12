@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MachineLearning-CrossValidation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"blocks",
+		"size"
+	],
+	"name" : "KFoldSeparator",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
-accesing
+accessing
 gap
 	^ gap.

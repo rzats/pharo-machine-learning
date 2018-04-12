@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "AndriiSkolotianyi 3/27/2018 16:00",
-	"super" : "ElasticNetPathRegressors",
-	"category" : "MachineLearning-LinearRegression",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TElasticPathNumerical classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"alpha",
@@ -12,8 +8,17 @@
 		"selection",
 		"l1Ratio",
 		"gap",
-		"nIters"
+		"nIters",
+		"precomputed",
+		"xTx",
+		"xTy"
 	],
 	"name" : "ElasticNetModel",
-	"type" : "normal"
+	"commentStamp" : "AndriiSkolotianyi 3/27/2018 16:00",
+	"super" : "LinearModel",
+	"traitcomposition" : "TElasticPathNumerical",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning-LinearRegression"
 }

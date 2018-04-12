@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "LinearModelCV",
-	"category" : "MachineLearning-LinearRegression",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TElasticPathNumerical classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"maxIter",
@@ -12,5 +8,11 @@
 		"l1Ratios"
 	],
 	"name" : "ElasticNetCVModel",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "LinearModelCV",
+	"traitcomposition" : "TElasticPathNumerical",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "MachineLearning-LinearRegression"
 }
