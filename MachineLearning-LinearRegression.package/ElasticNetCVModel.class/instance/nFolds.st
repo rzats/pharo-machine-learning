@@ -1,0 +1,3 @@
+accessing
+nFolds
+	^ nFolds

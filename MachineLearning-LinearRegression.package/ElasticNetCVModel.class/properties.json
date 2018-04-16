@@ -8,7 +8,12 @@
 		"l1Ratios",
 		"alphas",
 		"nAlphas",
-		"epsilon"
+		"epsilon",
+		"nFolds",
+		"mses",
+		"minMse",
+		"minL1",
+		"minAlpha"
 	],
 	"name" : "ElasticNetCVModel",
 	"commentStamp" : "",

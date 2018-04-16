@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 generateAlphaGridForL1RatiosWithXty: xTy  nSamples: nSamples
 	"works only for single output"
 	^ l1Ratios collect: [ :l1Ratio | | alphaL1 |
