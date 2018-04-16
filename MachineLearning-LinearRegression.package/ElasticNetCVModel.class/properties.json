@@ -5,7 +5,10 @@
 		"maxIter",
 		"tol",
 		"selection",
-		"l1Ratios"
+		"l1Ratios",
+		"alphas",
+		"nAlphas",
+		"epsilon"
 	],
 	"name" : "ElasticNetCVModel",
 	"commentStamp" : "",

@@ -4,7 +4,9 @@
 	"instvars" : [
 		"model",
 		"cv",
-		"cvResults"
+		"cvResults",
+		"center",
+		"normalize"
 	],
 	"name" : "LinearModelCV",
 	"commentStamp" : "",
