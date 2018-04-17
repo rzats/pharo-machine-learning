@@ -1,3 +1,0 @@
-accessing
-nAlphas
-	^ nAlphas
