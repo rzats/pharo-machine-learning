@@ -8,9 +8,8 @@ generateAlphaGridForL1RatiosWithXty: xTy  nSamples: nSamples
 					 self generateAlphaGridWithEps: epsilon 
 				 	 	xTy: xTy
 				 	 	l1Ratio: l1Ratio  
-				  	 	nAlphas: nAlphas 
 				  	 	nSamples: nSamples  ].
 				
-			l1Ratio @ alphaL1 
+			l1Ratio -> alphaL1 
 		].
   

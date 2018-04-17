@@ -4,6 +4,7 @@
 	"instvars" : [
 		"model",
 		"cv",
+		"nFolds",
 		"cvResults",
 		"center",
 		"normalize"

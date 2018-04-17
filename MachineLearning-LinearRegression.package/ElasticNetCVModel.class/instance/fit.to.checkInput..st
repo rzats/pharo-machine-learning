@@ -6,6 +6,9 @@ fit: x to: y checkInput: check
 	preprocessInput := self preprocessInput: x center: center normalize: normalize.
 	preprocessOutput := self preprocessOutput: y center: center.
 	xTy := preprocessInput xT * preprocessOutput y.
+	nFolds ifNil: [ 
+		nFolds := 3 min: y size.
+		 ].
 	
 	cv input: x output: y folds: nFolds.
 	alphas ifNotNil: [ 
@@ -21,11 +24,11 @@ fit: x to: y checkInput: check
 			self preprocessOutput: trainY center: center.
 		
 		txTx := processTrainX xT * processTrainX x.
-		txTy := processTrainY xT * processTrainY y.
+		txTy := processTrainX xT * processTrainY y.
 		
 		foldMses := alphaGrid collect: [ :point | | l1 alphaL1  |
-			l1 := point first.
-			alphaL1 := point second.
+			l1 := point key.
+			alphaL1 := point value.
 			self pathResidualsPrecomputed: alphaL1 
 				l1Ratio: l1 
 				trainxTx: txTx 
@@ -40,25 +43,27 @@ fit: x to: y checkInput: check
 		 ]. 	
 	
 	mses := (1 to: alphaGrid size) collect: [ :i |
-		(1 to: (alphaGrid at: i) size) collect: [ :j |
-			(foldsRes inject: 0 into: [ :sum :el | sum + ((el at: i) at: j)  ]) / nFolds.
+		(1 to: (alphaGrid at: i) value size) collect: [ :j |
+			(foldsRes inject: 0 into: [ :sum :el | sum + ((el at: i) value at: j)  ]) / nFolds.
 			 ]
 		 ].
 	
 	minMse := (mses at: 1) at: 1.
-	minL1 := (alphaGrid at: 1) first.
-	minAlpha := (alphaGrid at: 1) second at: 1.
+	minL1 := (alphaGrid at: 1) key.
+	minAlpha := (alphaGrid at: 1) value at: 1.
 	
 	1 to: mses size do: [ :i | 
 		1 to: (mses at: i) size do: [ :j |
 			((mses at: i) at: j) < minMse ifTrue: [ 
-				minL1 := (alphaGrid at: i) first.
-				minAlpha := (alphaGrid at: i) second at: j.
+				minL1 := (alphaGrid at: i) key.
+				minAlpha := (alphaGrid at: i) value at: j.
+				minMse := ((mses at: i) at: j).
 				 ].
 			 ].
 		].
 	
 	model := ElasticNetModel createWithAlpha: minAlpha maxIter: maxIter tol: tol selection: 'cyclic' l1Ratio: minL1. 
+	model fit: x to: y checkInput: check.
 		
 		 
 		

@@ -2,12 +2,12 @@ as yet unclassified
 trainInputWithout: i
 	"comment stating purpose of message"
 	| rIndex bIndex rows |
-	rows := Array new: size - (blocks at: i) first size.
-	rIndex := 0.
-	bIndex := 0.
+	rows := Array new: size - (blocks at: i) key size.
+	rIndex := 1.
+	bIndex := 1.
 	blocks do: [ :block |
 		i ~= bIndex ifTrue: [ 
-			block first do: [ :el |
+			block key do: [ :el |
 				rows at: rIndex put: el.
 				rIndex := rIndex + 1.
 				 ]

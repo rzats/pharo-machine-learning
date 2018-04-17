@@ -20,7 +20,7 @@ generateAlphaGridWithEps: eps xTy: xTy l1Ratio: l1Ratio nSamples: nSamples
 	logSpaceStart := (maxAlpha * eps) log: 10.
 	logSpaceStop := maxAlpha log: 10.
 	step := (logSpaceStop - logSpaceStart) / (nAlphas - 1).
-	^ (logSpaceStop  to: logSpaceStart  by: step negate) collect: [ :i |
+	^ (logSpaceStop  to: logSpaceStart  by: step negated) collect: [ :i |
 		10 ** i.
 		 ].
   

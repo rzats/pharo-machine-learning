@@ -9,7 +9,6 @@
 		"alphas",
 		"nAlphas",
 		"epsilon",
-		"nFolds",
 		"mses",
 		"minMse",
 		"minL1",
